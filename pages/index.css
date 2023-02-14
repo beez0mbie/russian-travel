@@ -5,3 +5,14 @@
 /* fonts */
 
 @import url(../vendor/fonts/Inter/inter.css);
+
+/* page */
+
+@import url(../blocks/page/page.css);
+
+/* header */
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/_lang-ru/header__link_lang-ru.css);
+@import url(../blocks/header/__link/_lang-en/header__link_lang-en.css);
