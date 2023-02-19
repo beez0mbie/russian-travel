@@ -1,0 +1,4 @@
+.place__heading {
+  display: flex;
+  gap: 40px;
+}
