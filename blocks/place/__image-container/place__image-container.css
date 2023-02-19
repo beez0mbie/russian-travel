@@ -4,5 +4,11 @@
   box-sizing: border-box;
   margin: 0;
   max-width: 460px;
-  min-width: 440px;
+  min-width: 45%;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image-container {
+    min-width: 340px;
+  }
 }
