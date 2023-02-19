@@ -9,3 +9,9 @@
 .place__paragraph:nth-child(2) {
   padding-top: 25px;
 }
+
+@media screen and (max-width: 979px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
