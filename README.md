@@ -5,6 +5,7 @@
 - Описание
 - Макет Figma
 - Техники
+- GitHub pages
 
 **Интро**
 
@@ -21,3 +22,7 @@
 - Grid
 - BEM
 - Адаптивная верстка
+
+**GitHub Pages**
+
+[Проект о путешествии на gitHub](https://beez0mbie.github.io/russian-travel/)
