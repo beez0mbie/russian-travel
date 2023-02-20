@@ -28,3 +28,12 @@
     padding-top: 73px;
   }
 }
+
+@media screen and (max-width: 720px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 50px;
+  }
+}
