@@ -1,10 +1,9 @@
 .place__image-container {
+  margin: 0;
   grid-area: image-container;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  min-width: 340px;
-  margin: 0;
 }
 
 @media screen and (max-width: 720px) {
