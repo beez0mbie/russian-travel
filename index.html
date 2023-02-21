@@ -6,7 +6,7 @@
     <meta name="description" content="проект Научиться учиться" />
     <meta name="author" content="Алексей Шмельков" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <title>Путешествия по России</title>
+    <title>Путешествия по&nbsp;России</title>
   </head>
   <body>
     <div class="page">
@@ -17,8 +17,12 @@
           alt="Логотип карта России"
         />
         <ul class="header__links">
-          <li class="header__link header__link_selected">Ru</li>
-          <li class="header__link">En</li>
+          <li class="header__link-item">
+            <a href="#" class="header__link header__link_selected">Ru</a>
+          </li>
+          <li class="header__link-item">
+            <a href="#" class="header__link">En</a>
+          </li>
         </ul>
       </header>
       <main>
@@ -39,53 +43,45 @@
           </figure>
         </section>
         <section class="intro">
-          <article class="intro__container">
-            <h2 class="intro__title">Чего мы там не видели?</h2>
-            <p class="intro__text">
-              По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но
-              только 36% планируют провести отпуск в родной стране. Мол, чего мы
-              тут, дома, не видели? На самом деле, Россия — это целая вселенная
-              с ласковым морем юга, густыми лесами Саян и суровыми льдами плато
-              Путорана. А ещё увидеть все эти красоты можно без миллионов на
-              счету, загранпаспорта и многочасовых перелетов. Как, например,
-              Вера Башмакова — смелая молодая мама, которая взяла в охапку троих
-              детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по
-              родной стране. Мы выбрали и описали некоторые интересные места,
-              достойные вашего отпуска.
-            </p>
-            <ul class="intro__list">
-              <li class="intro__list-item">
-                <span class="intro__span intro__span_text-bold"
-                  >Часовых поясов</span
-                >
-                11
-              </li>
-              <li class="intro__list-item">
-                <span class="intro__span intro__span_text-bold">
-                  Объектов природного наследия ЮНЕСКО
-                </span>
-                12
-              </li>
-              <li class="intro__list-item">
-                <span class="intro__span intro__span_text-bold">
-                  Объектов культурного наследия ЮНЕСКО
-                </span>
-                16
-              </li>
-              <li class="intro__list-item">
-                <span class="intro__span intro__span_text-bold"
-                  >Природных заповедников</span
-                >
-                105
-              </li>
-              <li class="intro__list-item">
-                <span class="intro__span intro__span_text-bold"
-                  >Аэропортов</span
-                >
-                241
-              </li>
-            </ul>
-          </article>
+          <h2 class="intro__title">Чего мы там не видели?</h2>
+          <p class="intro__text">
+            По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
+            36% планируют провести отпуск в родной стране. Мол, чего мы тут,
+            дома, не видели? На самом деле, Россия — это целая вселенная с
+            ласковым морем юга, густыми лесами Саян и суровыми льдами плато
+            Путорана. А ещё увидеть все эти красоты можно без миллионов на
+            счету, загранпаспорта и многочасовых перелетов. Как, например, Вера
+            Башмакова — смелая молодая мама, которая взяла в охапку троих детей,
+            усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
+            стране. Мы выбрали и описали некоторые интересные места, достойные
+            вашего отпуска.
+          </p>
+          <ul class="intro__list">
+            <li class="intro__list-item">
+              <span class="intro__span">Часовых поясов</span>
+              11
+            </li>
+            <li class="intro__list-item">
+              <span class="intro__span">
+                Объектов природного наследия ЮНЕСКО
+              </span>
+              12
+            </li>
+            <li class="intro__list-item">
+              <span class="intro__span">
+                Объектов культурного наследия ЮНЕСКО
+              </span>
+              16
+            </li>
+            <li class="intro__list-item">
+              <span class="intro__span">Природных заповедников</span>
+              105
+            </li>
+            <li class="intro__list-item">
+              <span class="intro__span">Аэропортов</span>
+              241
+            </li>
+          </ul>
         </section>
         <section class="photo-grid">
           <figure class="photo-grid__item">
@@ -173,8 +169,8 @@
             />
           </figure>
         </section>
-        <section>
-          <ul class="places">
+        <section class="places">
+          <ul class="places__list">
             <li class="place">
               <h2 class="place__title">Куршская коса&nbsp;&nbsp;</h2>
               <div class="place__website">
@@ -193,7 +189,7 @@
                   class="place__image"
                 />
               </figure>
-              <article class="place__article">
+              <div class="place__article">
                 <p class="place__paragraph">
                   Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
                   водных горизонта — спокойного Куршского залива с одной стороны
@@ -208,7 +204,7 @@
                   исключает суету, окуная в спокойствие природы и запах
                   стального, прохладного моря.
                 </p>
-              </article>
+              </div>
             </li>
             <li class="place">
               <h2 class="place__title">Кольский</h2>
@@ -228,7 +224,7 @@
                   class="place__image"
                 />
               </figure>
-              <article class="place__article">
+              <div class="place__article">
                 <p class="place__paragraph">
                   Почти весь полуостров находится за Полярным кругом. Саамская
                   тундра, от которой на юг — тайга, а на север — Ледовитый
@@ -243,7 +239,7 @@
                   накрывает апатия. Но ваша мечта увидеть северное сияние
                   начинает сбываться с билетом в Мурманск.
                 </p>
-              </article>
+              </div>
             </li>
             <li class="place">
               <h2 class="place__title">Алтай</h2>
@@ -263,7 +259,7 @@
                   class="place__image"
                 />
               </figure>
-              <article class="place__article">
+              <div class="place__article">
                 <p class="place__paragraph">
                   Алтай — одно из красивейших мест в России. В первую очередь
                   из-за гор: если ехать вдоль хребта, вы увидите склоны,
@@ -278,7 +274,7 @@
                   равнинах пасутся косули. И знаменитые манулы — тоже обитатели
                   Алтайского края.
                 </p>
-              </article>
+              </div>
             </li>
             <li class="place">
               <h2 class="place__title">Зимний Байкал</h2>
@@ -298,7 +294,7 @@
                   class="place__image"
                 />
               </figure>
-              <article class="place__article">
+              <div class="place__article">
                 <p class="place__paragraph">
                   Всем известен Байкал как крупнейшее озеро в мире. Многие также
                   знают, что это самый большой источник пресной воды и одно из
@@ -312,7 +308,7 @@
                   на фестивале «Байкальская миля» был поставлен мировой рекорд —
                   197.011 км/ч.
                 </p>
-              </article>
+              </div>
             </li>
             <li class="place">
               <h2 class="place__title">Карелия</h2>
@@ -332,7 +328,7 @@
                   class="place__image"
                 />
               </figure>
-              <article class="place__article">
+              <div class="place__article">
                 <p class="place__paragraph">
                   Сибирь заканчивается не на Урале, а в Карелии: образующая
                   тайгу сибирская лиственница не растёт западнее Водлозера. Зато
@@ -345,7 +341,7 @@
                   паре метров от земли помечены медвежьими когтями. Чтобы все
                   знали, кто тут хозяин.
                 </p>
-              </article>
+              </div>
             </li>
           </ul>
         </section>
@@ -390,7 +386,7 @@
             >Путешествия</a
           >
         </nav>
-        <div class="footer__copyright">© 2022. Алексей Шмельков</div>
+        <p class="footer__copyright">© 2022. Алексей Шмельков</p>
       </footer>
     </div>
   </body>
