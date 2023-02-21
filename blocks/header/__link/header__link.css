@@ -1,5 +1,6 @@
 .header__link {
   cursor: pointer;
+  list-style-type: none;
   transition: opacity 0.3s;
 }
 
